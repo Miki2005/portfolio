@@ -1,0 +1,505 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 11%;
+  margin-top: 0.5%;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header li :hover {
+  color: black;
+  padding: 3px;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background: #4b4b4b;
+  background: radial-gradient(circle, #4b4b4b 49%, rgba(2, 13, 17, 0.312763) 70%);
+  position: fixed;
+}
+
+@media screen and (max-width: 1570px) {
+  header a {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  header a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 55px;
+    position: static;
+    background-color: grey;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  header ul li {
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-right: 22px;
+  }
+  #oMeni {
+    display: inline-block;
+  }
+  #oMeni .slika {
+    margin: 6% auto;
+  }
+  #skills {
+    width: 90% !important;
+  }
+  #projects {
+    width: 90% !important;
+  }
+}
+
+#oMeni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bio {
+  width: 400px;
+  height: 350px;
+  background-color: #8791918c;
+  margin-left: 14%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.bio p {
+  font-size: 20px;
+}
+
+h2 {
+  color: #000;
+  margin-top: 9%;
+}
+
+p {
+  color: #000;
+  margin-top: 12%;
+}
+
+.slika {
+  background-image: url("../images/autor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin-top: 6%;
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 769px) {
+  header {
+    height: 280px;
+    background-color: #8080808a;
+  }
+  header ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+  }
+  header ul li {
+    margin-left: 6%;
+    padding-bottom: 2%;
+  }
+  #oMeni {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #oMeni .slika {
+    margin: 4% auto;
+    width: 300px;
+    height: 300px;
+  }
+  #oMeni .bio {
+    margin: 4% auto;
+    width: 300px;
+    height: 300px;
+  }
+  #skills {
+    width: 95% !important;
+  }
+  #projects {
+    text-align: center;
+    height: 500px !important;
+  }
+  #projects .project1 img {
+    width: 300px;
+    height: 200px;
+    margin: 4% 13%;
+  }
+  #projects .project1 h5 {
+    margin-left: 18%;
+  }
+  #projects .project2 img {
+    width: 300px;
+    height: 200px;
+    margin: 4% 0px;
+  }
+  #projects .project2 h5 {
+    margin-right: 18%;
+  }
+}
+
+#skills {
+  width: 80%;
+  height: 600px;
+  background-color: rgba(128, 128, 128, 0.596);
+  margin-top: 5%;
+  margin: 3% auto;
+}
+
+.tittle h1 {
+  color: black;
+  font-size: 35px;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1%;
+}
+
+.prvi {
+  width: 260px;
+  height: 150px;
+  text-align: center;
+}
+
+.drugi {
+  width: 260px;
+  height: 150px;
+  text-align: center;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.treci {
+  width: 260px;
+  height: 150px;
+  text-align: center;
+}
+
+#projects {
+  margin: 0px auto;
+  width: 70%;
+  height: 600px;
+  background-color: rgba(128, 128, 128, 0.445);
+}
+
+.tittle2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.projekti {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3%;
+}
+
+.project1 {
+  height: 300px;
+  width: 400px;
+  margin-right: 6%;
+}
+
+a img {
+  width: 400px;
+  height: 300px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.project2 {
+  height: 300px;
+  width: 400px;
+}
+
+@media screen and (max-width: 426px) {
+  #oMeni {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #oMeni .bio {
+    height: 380px;
+    margin-left: 3%;
+    margin-right: 2px;
+    width: 302px;
+  }
+  #oMeni .slika {
+    margin-top: 10%;
+  }
+  #skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1100px !important;
+  }
+  .tittle {
+    height: 50px;
+  }
+  .tittle h1 {
+    margin-left: 140%;
+    padding-top: 2%;
+  }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .prvi {
+    margin-bottom: 220px;
+    margin-right: 20%;
+  }
+  .content .prvi a img {
+    width: 100px;
+    height: 120px;
+  }
+  .content .prvi h4 {
+    font-size: auto;
+  }
+  .content .prvi p {
+    font-size: auto;
+  }
+  .content .drugi {
+    margin-bottom: 180px;
+    margin-right: 20%;
+  }
+  .content .drugi a img {
+    width: 100px;
+    height: 120px;
+  }
+  .content .treci {
+    margin-right: 20%;
+  }
+  .content .treci a img {
+    width: 100px;
+    height: 120px;
+  }
+  .tittle2 h2 {
+    font-size: auto;
+  }
+  #projects {
+    height: 700px !important;
+  }
+  #projects .projekti {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .projekti .project1 a img {
+    width: 200px;
+    height: 200px;
+  }
+  #projects .projekti .project1 h5 {
+    font-size: 15px;
+    margin-right: 70px;
+    color: #000;
+  }
+  #projects .projekti .project2 a img {
+    width: 200px;
+    height: 200px;
+  }
+  #projects .projekti .project2 h5 {
+    font-size: 15px;
+    margin-left: 15%;
+    color: #000;
+  }
+  #usluge {
+  margin-top: 26%;
+ }
+  #usluge .usluga img {
+    height: auto;
+    width: auto;
+  }
+  #usluge .usluga h5 {
+    margin-top: 4%;
+  }
+}
+
+#usluge {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 550px;
+  background-color: rgba(128, 128, 128, 0.527);
+  margin: 4% auto;
+  margin-bottom: 4%;
+}
+
+#usluge h6 {
+  font-size: 40px;
+}
+
+#usluge .usluga .img {
+  height: 150px;
+  width: 200px;
+}
+
+#usluge .usluga h5 {
+  font-size: auto;
+  color: #000;
+}
+
+#kontakt {
+  margin-top: 25%;
+  height: auto;
+  width: auto;
+  padding-bottom: 2%;
+  background-color: #e2e2e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#kontakt input[type=text], #kontakt select, #kontakt textarea {
+  width: 40%;
+  padding: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 30%;
+}
+
+#kontakt input[type=submit] {
+  background-color: #04aa9cb6;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 10%;
+  text-align: center;
+  text-align: center;
+  margin-left: 45%;
+}
+
+#kontakt input[type=submit]:hover {
+  background-color: #386292c4;
+}
+
+#kontakt label {
+  font-size: 25px;
+}
+
+form {
+  margin-top: 10%;
+}
+
+footer {
+  width: 100% !important;
+  background: black;
+  padding: 20px 0px;
+  margin-top: 10px;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #b3b2a0;
+  text-decoration: none;
+}
