@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cistac {
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@keyframes bum {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+body {
+    animation-name: bum;
+    animation-duration: 5s;
+}
+
+body header {
+    width: 100%;
+    min-height: 80px;
+    background-color: slategray;
+    position: fixed;
+    z-index: 2;
+    border-bottom: 2px solid #000;
+}
+
+body header #navigacija {
+    width: 100%;
+    display: flex;
+}
+
+body header #navigacija #logo {
+    width: 15%;
+}
+
+body header #navigacija #logo h1 {
+    color: #000;
+    font-size: 3.5rem;
+    font-family: 'Monoton', cursive;
+    margin-left: 25px;
+    text-shadow: 0px 0px #0a91cf;
+}
+
+body header #navigacija nav {
+    width: 80%;
+    margin-top: 15px;
+}
+
+body header #navigacija nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+body header #navigacija nav li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-family: 'Bangers', cursive;
+    color: #dcc656;
+    text-shadow: 2px 2px #000;
+}
+
+body header #navigacija nav li a:hover {
+    color: #fff;
+}
+
+body main {
+    width: 100%;
+}
+
+body main .naslovi {
+    width: 100%;
+    height: 70px;
+    background-color: slategray;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+body main .naslovi h1 {
+    font-size: 3rem;
+    color: #dcc656;
+    font-family: 'Bangers', cursive;
+    text-shadow: 2px 2px #000;
+    margin-top: 12px;
+}
+
+body main h2 {
+    font-size: 4rem;
+    color: #0a91cf;
+    margin-top: 100px;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
+body main h1 {
+    color: #000;
+    font-size: 4rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body main h3 {
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body main h4 {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body main p {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body main #pozadina {
+    width: 100%;
+    height: 900px;
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    top: 80px;
+}
+
+body main #pozadina #naslov {
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    top: 280px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+
+body main #it {
+    width: 100%;
+    height: 770px;
+    margin-top: 80px;
+    background-image: url("../img/vestine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+}
+
+body main #it #vestine {
+    width: 40%;
+    height: 520px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+body main #it #vestine ul li {
+    margin-top: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.7rem;
+}
+
+body main #projekti {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+    background-image: url("../img/projekti.jpg");
+    background-size: cover;
+}
+
+body main #projekti #sajt {
+    width: 70%;
+    margin: 50px auto;
+}
+
+body main #projekti #sajt img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+body main #projekti #sajt img:hover {
+    box-shadow: 0 1px 50px 0 #042f42, 0 1px 50px 0 #042f42;
+}
+
+body main #obrazovanje {
+    width: 100%;
+    height: 1100px;
+    background-image: url("../img/obrazovanje.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body main #obrazovanje #blok {
+    width: 40%;
+    min-height: 580px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+body main #licniPodaci {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    background-image: url("../img/licnipodaci.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body main #licniPodaci #profil {
+    margin-left: 15%;
+    margin-top: 150px;
+    float: left;
+}
+
+body main #licniPodaci #profil img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+body main #licniPodaci #profil img:hover {
+    box-shadow: 0 1px 50px 0 #042f42, 0 1px 50px 0 #042f42;
+}
+
+body main #licniPodaci #podaci {
+    width: 35%;
+    float: right;
+    margin-right: 150px;
+}
+
+body main #licniPodaci #podaci h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body main #licniPodaci #podaci h4 {
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+body footer {
+    width: 100%;
+    height: 85px;
+    background-color: slategray;
+    border-top: 3px solid #000;
+}
+
+body footer #soc {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+body footer #soc .fab,body footer #soc .fas {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+body footer #soc .fab:hover,body footer #soc .fas:hover {
+    color: #fff;
+}
+
+body footer #bottom {
+    width: 100%;
+    text-align: center;
+}
+
+body footer #bottom h4 {
+    color: #dcc656;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-shadow: 2px 2px #000;
+}

@@ -1,0 +1,364 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+//font-family: 'Noto Sans JP', sans-serif;
+//font-family: 'Maiden Orange', cursive;
+//font-family: 'Bangers', cursive;
+//font-family: 'Tangerine', cursive;
+
+//font-family: 'Orbitron', sans-serif;
+
+
+
+.cistac{
+    clear: both;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+@keyframes bum {
+    from {opacity: 0.0;}
+    to {opacity: 1.0;}
+}
+
+body{
+    
+    animation-name: bum;    
+    animation-duration: 5s;
+
+    
+    
+    header{
+        width: 100%;
+        min-height: 80px;
+        background-color: slategray;
+        position: fixed;
+        z-index: 2;
+        border-bottom: 2px solid #000;
+        
+        
+        
+        #navigacija{
+            width:100%;
+            display:flex;
+            
+            
+
+            #logo{
+                width:15%;
+                 h1{
+                    color:#000;
+                    font-size: 3.5rem;
+                    font-family: 'Monoton', cursive;
+                    margin-left: 25px;
+                    text-shadow: 0px 0px #0a91cf;
+                    /*&:hover{
+                        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+                        
+                    }*/
+
+                }
+             }
+            nav{
+                width:80%;
+                margin-top:15px;
+                ul{      
+                display:flex;
+                justify-content: space-around;  
+                margin-top:12px;
+                }
+                
+                li a{
+                    text-decoration:none;
+                    font-size: 1.7rem;
+                    font-family: 'Bangers', cursive;
+                    color:#dcc656;
+                    text-shadow: 2px 2px #000;
+                    &:hover{
+                        color:#fff;
+                    }
+                    
+                }
+            }    
+        }
+           
+                
+        
+        
+            
+        
+    }
+    main{
+        width:100%;
+        
+        
+//klase
+        .naslovi{
+            width:100%;
+            height:70px;
+            background-color: slategray;
+            text-align:center;
+            border-top:2px solid #000;
+            border-bottom:2px solid #000;
+            h1{
+                font-size: 3rem; 
+                color:#dcc656;
+                font-family: 'Bangers', cursive;
+                text-shadow: 2px 2px #000;
+                margin-top:12px;
+            
+            }
+        }
+
+        h2{
+            font-size: 4rem;
+            color:#0a91cf;
+            margin-top:100px;
+            font-family: 'Bangers', cursive;
+            margin-bottom:40px;
+            text-align:center;
+            text-shadow: 1px 1px #000;
+
+        }
+
+        
+        h1{
+            color:#000;
+            font-size:4rem;
+            font-family: 'Noto Sans JP', sans-serif;
+            
+        }
+        h3{
+            color:#000;
+            font-size:2rem;
+            font-family: 'Noto Sans JP', sans-serif;
+            
+            
+        }
+
+        h4{
+            color:#000;
+            font-size: 1.5rem;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        p{
+            font-size: 1.3rem;
+            color:#000;
+            font-family: 'Noto Sans JP', sans-serif;
+
+        }
+        
+
+//klase kraj        
+        #pozadina{
+            width:100%;
+            height:900px;
+            background-image: url('../img/laptop.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+
+            position:relative;
+            background-repeat: no-repeat;
+            top:80px;
+            
+            #naslov{
+                width:100%;
+                min-height:40px;
+                position:absolute;
+                top:280px;
+                
+                border-radius:10px;
+                text-align: center;
+                background-color: rgba(255,255,255,0.5);
+                
+                
+            }
+        }
+        #it{
+            width:100%;
+            height:770px;
+            
+            margin-top:80px;
+            background-image: url('../img/pozadina.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: -60px;
+            
+           
+            
+            
+            
+            #vestine{
+                width:40%;
+                height: 520px;
+                text-align:center;
+                margin-left:170px;
+                margin-top: 10px;
+
+                
+                
+
+
+                
+                ul li{
+                    margin-top:15px;
+                    font-family: 'Noto Sans JP', sans-serif;
+                    font-size: 1.7rem;
+
+                    
+                }
+            }
+            
+            
+        }
+        
+        #projekti{
+            width:100%;
+            //min-height:950px;
+            text-align:center;
+            padding-bottom: 60px;
+            background-image:url('../img/pozadina102.jpg');
+            background-size: cover;
+          
+
+            #sajt{
+                width: 70%;
+                margin: 50px auto;
+                img{
+                    width:100%;
+                    border-radius: 25px;
+                    &:hover{
+                        box-shadow: 0 1px 50px 0 #042f42, 0 1px 50px 0 #042f42;                    
+                    }
+                }
+
+            }
+
+         
+            
+        }
+
+                    
+            
+        
+
+        #obrazovanje{
+
+            width:100%;
+            height:1100px;
+            background-image: url('../img/book.jpg');
+            background-attachment: fixed;
+            
+            //background-position-y: -280px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            #blok{
+                width:40%;
+                min-height: 580px;
+                text-align:center;
+                margin-left:120px;
+                margin-top: 10px;
+
+            }
+
+
+        }
+
+        #licniPodaci{
+            width:100%;
+            height:750px;
+            text-align:center;
+            background-image: url('../img/pozadinaKocka1.jpg');
+            background-size:cover;
+            background-repeat: no-repeat;
+
+            #profil{
+                //width:20%;
+                margin-left:15%;
+                margin-top:150px;
+              
+                
+                float:left;
+                img{
+                    width:100%;
+                    border-radius: 5px; 
+                    &:hover{
+                        
+                        box-shadow: 0 1px 50px 0 #042f42, 0 1px 50px 0 #042f42;                    }
+                }
+            }
+
+            #podaci{
+                width:35%;
+                float:right;
+                margin-right:150px;
+                
+                
+                h2{
+                    margin-top:30px;
+                    text-align:center;
+                    
+                }
+                h4{
+                    text-align:justify;
+                    margin-bottom:30px;
+                    color:#fff;
+                    text-shadow: 2px 2px #000;
+                    
+                }
+            }
+            
+        }
+
+
+    }
+
+    footer{
+        width:100%;
+	    height:85px;
+	    background-color: slategray;
+        border-top:3px solid #000;
+        #soc{
+            width: 100%;
+            height: 50%;
+            text-align: center;
+            border-bottom: 2px solid #000;
+        
+            .fab, .fas{
+                margin-left:50px; 
+                margin-right: 50px;
+                color:#000;
+                font-size: 2.5rem;
+            }
+            
+            .fab:hover, .fas:hover{
+                color:#fff;
+            }
+        }
+
+        #bottom{
+            width: 100%;
+            text-align: center;
+            h4{
+                color:#dcc656;
+                font-size: 1.5rem;
+                font-family: 'Noto Sans JP', sans-serif;
+                text-shadow: 2px 2px #000;
+            }
+
+        }
+    }
+}
+    
